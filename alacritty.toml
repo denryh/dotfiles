@@ -1,0 +1,18 @@
+[env]
+TERM = "xterm-256color"
+
+[window]
+padding = { x = 10, y = 10 }
+decorations = "Buttonless"
+opacity = 0.9
+blur = true
+
+[font]
+normal.family = "GeistMono Nerd Font Mono"
+size = 14.5
+
+[keyboard]
+bindings = [
+  { key = "Right", mods = "Alt", chars = "\u001BF" },
+  { key = "Left",  mods = "Alt", chars = "\u001BB" },
+]
