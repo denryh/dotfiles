@@ -6,8 +6,6 @@ TERM = "xterm-256color"
 [window]
 padding = { x = 10, y = 10 }
 decorations = "Buttonless"
-opacity = 0.9
-blur = true
 
 [font]
 normal.family = "GeistMono Nerd Font Mono"
