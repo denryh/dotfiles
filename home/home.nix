@@ -16,6 +16,7 @@
     # ./cli/direnv.nix
     ./cli/starship.nix
     ./cli/lazygit.nix
+    ./cli/gh.nix
     # ./cli/ssh.nix
 
     # Editors
