@@ -1,6 +1,10 @@
 { ... }:
 
 {
+  programs.delta = {
+    enable = true;
+  };
+
   programs.git = {
     enable = true;
 
@@ -9,6 +13,8 @@
         name = "denryh";
         email = "dg.thdat.dev@gmail.com";
       };
+
+      core.pager = "delta";
 
       init = {
         defaultBranch = "main";

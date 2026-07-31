@@ -3,6 +3,7 @@
 
   inputs = {
     nixpkgs.url = "github:NixOS/nixpkgs/nixos-unstable";
+    wezterm.url = "github:wezterm/wezterm?dir=nix";
 
     home-manager = {
       url = "github:nix-community/home-manager";
@@ -10,7 +11,7 @@
     };
   };
 
-  outputs = { self, nixpkgs, home-manager }:
+  outputs = inputs @ { nixpkgs, home-manager, ...}:
     let
       system = "x86_64-linux";
 
@@ -28,8 +29,14 @@
       homeConfigurations.henry = home-manager.lib.homeManagerConfiguration {
         inherit pkgs;
 
+	extraSpecialArgs = { inherit inputs; };
+
         modules = [
-          ./home/default.nix
+          ./home/home.nix
+	  {
+      	    home.username = "henry";
+      	    home.homeDirectory = "/home/henry";
+    	  }
         ];
       };
     };
