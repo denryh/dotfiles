@@ -1,6 +1,11 @@
 { ... }:
 
 {
+  imports = [
+    ./packages.nix
+    ./git.nix
+  ];
+
   home.username = "henry";
   home.homeDirectory = "/home/henry";
 
