@@ -1,0 +1,16 @@
+gui:
+  showIcons: true
+  theme:
+    activeBorderColor:
+      - green
+      - bold
+
+git:
+  pagers:
+    - pager: delta --dark --paging=never
+      colorArg: always 
+
+os:
+  editPreset: nvim
+
+quitOnTopLevelReturn: false

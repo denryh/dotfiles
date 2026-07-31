@@ -14,11 +14,9 @@
     ./cli/fzf.nix
     ./cli/zoxide.nix
     # ./cli/direnv.nix
-    # ./cli/starship.nix
+    ./cli/starship.nix
+    ./cli/lazygit.nix
     # ./cli/ssh.nix
-
-    # Terminal
-    ./terminal/wezterm.nix
 
     # Editors
     # ./editors/neovim.nix
@@ -29,6 +27,9 @@
     # Platform-specific
     # ./platforms/linux.nix
     # ./platforms/darwin.nix
+
+    # Link config
+    ./config.nix
   ];
 
   home = {
