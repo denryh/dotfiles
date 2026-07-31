@@ -12,7 +12,7 @@
     # CLI
     ./cli/git.nix
     ./cli/fzf.nix
-    # ./cli/zoxide.nix
+    ./cli/zoxide.nix
     # ./cli/direnv.nix
     # ./cli/starship.nix
     # ./cli/ssh.nix
