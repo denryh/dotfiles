@@ -7,6 +7,5 @@
     jq
     tree
     bat
-    eza
   ];
 }

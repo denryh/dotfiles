@@ -5,6 +5,7 @@
     enable = true;
 
     autosuggestion.enable = true;
+    fastSyntaxHighlighting.enable = true;
 
     shellAliases = {
       hm = "nix run ~/dotfiles#homeConfigurations.henry.activationPackage";
@@ -12,6 +13,7 @@
       ll = "eza -la";
       lt = "eza --tree";
       cat = "bat";
+      lg = "lazygit";
     };
 
     sessionVariables = {
