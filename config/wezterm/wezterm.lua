@@ -18,12 +18,16 @@ config.window_padding = {
   bottom = 16,
 }
 
+-- Window size upon opening
+config.initial_cols = 120
+config.initial_rows = 35
+
 -- Typography (Requires a Nerd Font installed on your system)
 config.font = wezterm.font_with_fallback({
   'JetBrains Mono',
   'Symbols Nerd Font',
 })
-config.font_size = 11.0
+config.font_size = 10.0
 
 -- Hide tab bar when only one tab is open
 config.hide_tab_bar_if_only_one_tab = true
