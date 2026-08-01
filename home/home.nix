@@ -18,6 +18,7 @@
     ./cli/lazygit.nix
     ./cli/gh.nix
     ./cli/eza.nix
+    ./cli/btop.nix
     # ./cli/ssh.nix
 
     # Editors
