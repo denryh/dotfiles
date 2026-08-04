@@ -10,8 +10,7 @@ local config = wezterm.config_builder()
 
 -- Visual & Aesthetic Choices
 config.color_scheme = 'ayu' -- Replace with your favorite theme
-config.window_background_opacity = 0.85 -- Semi-transparent background
-config.text_background_opacity = 0.9
+config.window_background_opacity = 0.98 -- Semi-transparent background
 config.default_prog = { 'zsh', '-l' }
 
 -- Remove heavy window borders/titlebars for a clean floating look
@@ -30,10 +29,8 @@ config.initial_cols = 120
 config.initial_rows = 35
 
 -- Typography (Requires a Nerd Font installed on your system)
-config.font = wezterm.font_with_fallback({
-  'JetBrains Mono',
-  'Symbols Nerd Font',
-})
+config.font = wezterm.font('GeistMono Nerd Font Mono',{ weight = 'SemiBold' })
+
 config.font_size = 10.0
 
 -- Hide tab bar when only one tab is open
