@@ -29,7 +29,7 @@ config.initial_cols = 120
 config.initial_rows = 35
 
 -- Typography (Requires a Nerd Font installed on your system)
-config.font = wezterm.font('GeistMono Nerd Font Mono',{ weight = 'SemiBold' })
+config.font = wezterm.font('GeistMono Nerd Font Mono',{ weight = 'Medium' })
 
 config.font_size = 10.0
 

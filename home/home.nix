@@ -19,6 +19,7 @@
     ./cli/gh.nix
     ./cli/eza.nix
     ./cli/btop.nix
+    ./cli/opencode.nix
     # ./cli/ssh.nix
 
     # Editors
