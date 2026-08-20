@@ -20,10 +20,11 @@
     ./cli/eza.nix
     ./cli/btop.nix
     ./cli/opencode.nix
+    ./cli/herdr.nix
     # ./cli/ssh.nix
 
     # Editors
-    # ./editors/neovim.nix
+    ./editors/neovim.nix
 
     # Development
     # ./development/node.nix
